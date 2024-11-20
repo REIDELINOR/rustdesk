@@ -342,7 +342,7 @@ impl Client {
                         let mut conn = Self::create_relay(
                             peer,
                             rr.uuid,
-                            String::from("36.134.37.76:28643"),
+                            String::from("183.94.30.165:49866"),
                             key,
                             conn_type,
                             my_addr.is_ipv4(),
