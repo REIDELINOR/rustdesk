@@ -338,11 +338,11 @@ impl Client {
                             rr.relay_server
                         );
                         signed_id_pk = rr.pk().into();
-                        ////"sg-iepl.tk-zx.com:21117"  rr.relay_server
+                        ////"sg-iepl.tk-zx.com:21117"  rr.relay_server  36.134.37.76:28625
                         let mut conn = Self::create_relay(
                             peer,
                             rr.uuid,
-                            String::from("sg-iepl.tk-zx.com:21117"),
+                            String::from("36.134.37.76:28625"),
                             key,
                             conn_type,
                             my_addr.is_ipv4(),
